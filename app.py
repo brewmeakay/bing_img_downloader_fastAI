@@ -1,6 +1,10 @@
 #https://pypi.org/project/bing-image-downloader/
 #pip install bing-image-downloader
 
+#if using jupyter notebook
+import sys
+!{sys.executable} -m pip install bing-image-downloader
+
 
 from bing_image_downloader import downloader
 import os, shutil
