@@ -17,7 +17,7 @@ path=Path(dataset_name)
 if not path.exists():
     path.mkdir()
 
-labels=['grizzly', 'brown', 'teddy']
+labels=['grizzly', 'black', 'teddy']
 
 for l in labels:
     downloader.download(query=f'{l} bear',limit=200,output_dir=path,adult_filter_off=True)
